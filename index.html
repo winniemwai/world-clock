@@ -17,28 +17,31 @@
   <body>
     <div class="container">
       <h1>world clock 🕰️</h1>
-      <select>
+
+      <select id="city">
         <option value="">select a city...</option>
-        <option value="">London</option>
-        <option value="">Nairobi</option>
-        <option value="">New York</option>
-        <option value="">Auckland</option>
+        <option value="Europe/London">London</option>
+        <option value="Africa/Nairobi">Nairobi</option>
+        <option value="America/New_York">New York</option>
+        <option value="Pacific/Auckland">Auckland</option>
       </select>
 
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris Fr</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris Fr</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="nairobi">
-        <div>
-          <h2>Nairobi ke</h2>
-          <div class="date"></div>
+        <div class="city" id="nairobi">
+          <div>
+            <h2>Nairobi ke</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
     <footer>
